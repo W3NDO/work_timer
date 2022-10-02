@@ -41,4 +41,12 @@ RSpec.describe Application do
     context "POST to /history" do
         it "returns a list of previous work time"
     end
+
+    context '#set_start_time' do
+        it 'Writes the start time to a temporary file'
+    end
+
+    context '#stop_timer' do
+        it 'writes start and stop time to a data file'
+    end
 end
